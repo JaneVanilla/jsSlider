@@ -1,0 +1,28 @@
+.title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 45px;
+    margin: 0 auto;
+    color: pink;
+}
+
+#gallery img {
+    display: none;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#gallery img:first-child {
+    display: block;
+}
+
+#prev, #next {
+    margin: 0 auto;
+}
+
+#btn {
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
